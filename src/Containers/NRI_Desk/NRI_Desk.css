@@ -1,0 +1,70 @@
+.NRI .Market_Insights{
+    top: 0%;
+}
+.NRI .Card_Content {
+    height: 11.5rem;
+}
+.Q_Line{
+    display: flex;
+justify-content: space-between;
+}
+.NRI_hr{
+    background: #23282F;
+border-radius: 2px;
+opacity: 0.5;
+}
+.RemoveIcon{
+    color: #006FF7;
+}
+.Q_Line_Box{
+    margin: 1rem 0;
+}
+.Frequently_Asked_Questions{
+    padding: 7rem;
+}
+.Questions{
+    background: #FFFFFF;
+box-shadow: 0px 7px 34px rgba(0, 0, 0, 0.133714);
+border-radius: 25px;
+padding: 1rem;
+}
+.NRI_hr{
+    margin: 1rem 0;
+}
+.Description_Line{
+    width: 95%;
+}
+@media screen and (max-width: 600px) {
+.Frequently_Asked_Questions {
+padding: 1rem;
+}
+.NRI h3{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+ 
+    /* or 350% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: rgba(35, 40, 47, 0.9);
+}
+.Frequently_Asked_Questions p {
+    font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+
+color: #7D7987;
+}
+.add_Icon{
+    width: 1rem;
+    height: 1rem;
+}
+.NRI .Card_Content {
+    height: 15.5rem;
+}
+}

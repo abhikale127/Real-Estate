@@ -1,0 +1,40 @@
+.Blog_Text{
+    font-family: Mulish;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 165%;
+/* or 26px */
+margin: 2rem 0;
+color: #2A2A2A;
+
+}
+.Blog_Text_box{
+    padding: 0 15%;
+}
+.Blog_Details_Img1{
+    display: flex;
+    justify-content: space-around;
+    margin: 4rem 0;
+    padding: 0 5rem;
+}
+.Blog_Details_Banner{
+    width: 100%;
+}
+.Blog_Details .Market_Insights{
+    top: 0;
+   }
+   .Insights_Heading{
+    text-align: center;
+    margin-left: 0%;
+   }
+   .Insight_hr{
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    margin-left: 0;
+    display: flex;
+    justify-content: space-around;
+   }
+   .Blog_Cards{
+       margin-top: 4rem;
+   }

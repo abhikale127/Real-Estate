@@ -1,0 +1,101 @@
+.About_us_Page .Our_Service_Group{
+    top: 0;
+    margin-top: 3rem;
+}
+.Our_Journey_Para{
+    display: flex;
+    justify-content: space-around;
+}
+.Our_Journey_Img{
+    width: 100%;
+    margin-left: -4rem;
+}
+.Our_Journey{
+    padding: 7rem;
+}
+.Our_Journey_Para_Box{
+    width: 37rem;
+}
+.About_us_Page .Market_Insights{
+    top: 0;
+ 
+}
+.How_It_Works{
+    padding: 7rem;
+}
+.values_first , .values_Second , .values_Third {
+    display: flex;
+    margin-top: 4rem;
+    margin-right: 2rem;
+}
+.none{
+    display: none;
+}
+.Our_Office .Our_Story_Txt {
+    padding-top: 24rem;
+}
+.Contact_no{
+    margin-top: 2rem;
+}
+.Contact .Our_Office{
+    margin-top: 4rem;
+}
+.Map_div{
+    display: flex;
+}
+.Map{
+    width: 100%;
+}
+.Contact .Our_Office .Our_Story_Txt {
+    padding-top: 12rem;
+}
+.buyerselect{
+    margin-left: 1rem;
+}
+.agentselect{
+    margin-right: 4rem;
+}
+@media screen and (max-width: 600px) {
+    .Our_Journey {
+        padding: 2rem;
+    }
+    .Our_Journey_Para {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .Our_Journey_Para_Box {
+        width: 18rem;
+    }
+    .Contact .Our_Office .Our_Story_Txt {
+        padding-top: 1rem;
+    }
+
+.Our_Journey_Img {
+    width: 100%;
+    margin-left: -1rem;
+}
+.values_first, .values_Second, .values_Third {
+    display: flex;
+    margin-top: 4rem;
+    margin-right: 2rem;
+    flex-direction: column;
+}
+.How_It_Works {
+    padding: 2rem;
+}
+.List_Heading {
+width: 100% !important;
+}
+.Our_Office .Our_Story_Txt {
+  padding-top: 0;
+  padding-bottom: 3rem;
+}
+.buyerselect{
+    margin-left: 0rem;
+}
+.agentselect{
+    margin-right: 0.5rem;
+}
+
+}

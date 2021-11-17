@@ -1,0 +1,106 @@
+ .Card{
+    width: 26rem;
+background: #FFFFFF;
+box-shadow: 0px 32px 37px rgba(0, 0, 0, 0.1);
+border-radius: 25px 25px 0 25px;
+margin-right: 1.5rem;
+
+ }
+ .Card :hover{
+   box-shadow: 0px 32px 37px  #9dbfe9;
+ 
+}
+.Service_Card .Card :hover{
+   box-shadow: none!important ;
+}
+
+ .Card_Content{
+    height: 9.5rem;
+    padding: 0px 2rem;
+    box-shadow: none !important;
+ }
+ .Card_Img{
+     width: 100%;
+         box-shadow: none !important;
+    
+ }
+
+ .Card_Img_Parent{
+   box-shadow: none !important;
+ }
+ 
+ .Card_Heading{
+     margin: 1rem 0;
+     font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 31px;
+letter-spacing: -0.603077px;
+box-shadow: none !important;
+color: #23282F;
+ }
+ .List_Heading{
+    margin: 4rem 0;
+ }
+ 
+ .Card_Para{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: -0.603077px;
+    
+    color: #23282F;
+    
+    opacity: 0.6;
+   
+
+ }
+ .Card_Para{
+    box-shadow: none !important ;
+ }
+ .Extend_btn{
+   background: #23282F;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+   width: 5rem;
+   height: 5rem;
+   border-radius: 5rem;
+   position: relative;
+   top: 2rem;
+   left: 39%;
+ }
+ .pop-up_text{
+    position: relative;
+    width: 100%;
+    margin: 4rem 4px;
+ }
+ .Service_Carousel .react-multi-carousel-track .react-multi-carousel-item {
+   width: 480px !important  ;
+}
+
+
+
+ @media screen and (max-width: 1000px) {
+ 
+.Card {
+   width: 17rem !important;
+   
+}
+.Service_Carousel .react-multi-carousel-track .react-multi-carousel-item {
+   width: 288px !important  ;
+}
+.About_us_Page .Card_Content {
+   height: 14.5rem;
+}
+
+ 
+
+
+}

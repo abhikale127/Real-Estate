@@ -1,0 +1,31 @@
+.Img_Card_Img{
+    width: 100%;
+    height: auto;
+}
+.Img_Card_Heading{
+    position: relative;
+    top: -3rem;
+    margin-left: 1rem;
+    font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 1.5rem;
+line-height: 1.93rem;
+letter-spacing: -0.603077px;
+
+color: #FFFFFF;
+}
+.Img_Card{
+    margin-right: 1rem;
+}
+.react-multi-carousel-item {
+    width: 735px !important  ;
+}
+
+@media screen and (max-width: 1000px) {
+    
+.react-multi-carousel-item {
+    width: 280px !important  ;
+}
+
+}

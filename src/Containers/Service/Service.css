@@ -1,0 +1,270 @@
+.Service_Banner{
+    margin-top: 5rem;
+}
+.vl {
+    border-left: 1px solid #23282F;;
+    height: 52px; 
+    opacity: 0.5;
+  }
+  .List_Heading{
+      display: flex;
+      background: #FFFFFF;
+box-shadow: 0px 7px 34px rgba(0, 0, 0, 0.133714);
+border-radius: 25px;
+width: 100%;
+justify-content: space-around;
+align-content: center;
+flex-direction: row;
+    flex-direction: row;
+    height: 5rem;
+    flex-wrap: wrap;
+
+  }
+  .Title_Lists{
+      margin-top: 7px;
+  }
+  .Service_Carousel .Card .Card_Content{
+      height: 4rem;
+      width: 16rem;
+  }
+  .Enquiry{
+      background: #F5F5F5;
+      padding: 5rem;
+  }
+  .For_You{
+    padding-left: 5rem;
+    padding-bottom: 3rem;
+ }
+.react-multi-carousel-track {
+    height: 29rem;
+}
+textarea, input { outline: none; }
+ .Form_Input {
+    background: #FFFFFF;
+    border: 1px solid rgba(35, 40, 47, 0.15);
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 3.75rem;
+    width: 100%;
+    margin: 1rem 0;
+    margin-left: 1rem;
+    padding: 1rem;
+   
+ } 
+ .Text_Area{
+    background: #FFFFFF;
+    border: 1px solid rgba(35, 40, 47, 0.15);
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 100%;
+    margin: 1rem 0;
+    margin-left: 1rem;
+    padding: 1rem;
+ }
+ .check_Text_Mbl{
+     display: none;
+ }
+
+
+
+ .Line1 , .Line2 {
+     display: flex;
+    
+}
+
+ .Form_Lines{
+ display: flex;
+ flex-direction: column;
+ }
+ ::placeholder {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1px;
+    
+    color: #23282F;
+    
+    opacity: 0.5;
+  }
+  
+  .Check_Text_Black{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1px;
+    
+    color: #23282F;
+  }
+  .Check_Text_Blue{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1px;
+    
+    color:  #006FF7; 
+    margin: 0 4px;
+  }
+  .Submit_btn{
+      display: flex;
+      justify-content: space-around;
+  }
+  .check_txt{
+      display: flex;
+      margin-left: 0.4rem;
+  }
+  .Enquiry_Heading {
+   
+   padding-left: 1rem; 
+  }
+  .Blog_btn{
+    margin-left: auto;
+    margin-right: auto; 
+    color:  #006FF7; 
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    background: #FFFFFF;
+    text-align: center;
+    display: flex;
+    margin-bottom: 2rem;
+    
+  }
+  .Blog_Content{
+    margin-left: 10%;
+  }
+  .Rewards .Line2{
+      flex-direction: column;
+  }
+  .fullinput{
+      width: 100%;
+  }
+  .fullinput2{
+    width: 100%;
+    margin-left: 1rem;
+}
+.errordialogue{
+    color: red;
+    margin-top: -16px;
+    margin-left: 1rem;
+}
+.Line2div{
+    width: 100%;
+}
+.Line2divright{
+    width: 100%;
+    margin-left: 1rem;
+}
+  @media screen and (max-width: 1000px) {
+  .Blog_Content{
+      margin-left: 0%;
+  }
+  .Latest_Article{
+      margin-left: 10%;
+  }
+  .For_You{
+    padding-left: 1rem;
+  }
+  .Service_Banner .Our_Story_Group .Our_Story_Txt {
+    padding-top: 0;
+    padding-bottom: 4rem;
+    margin-left: 0;
+}
+.Form_Input {
+    background: #FFFFFF;
+    border: 1px solid rgba(35, 40, 47, 0.15);
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 3.75rem;
+    width: 100%;
+    margin: 1rem 0;
+    margin-left: 0rem;
+    padding: 1rem;
+   
+ } 
+ .fullinput2 {
+    width: 100%;
+    margin-left: 0rem;
+}
+.errordialogue{
+    color: red;
+    margin-top: -16px;
+    margin-left: 0rem;
+}
+ .Text_Area{
+    background: #FFFFFF;
+    border: 1px solid rgba(35, 40, 47, 0.15);
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 100%;
+    margin: 1rem 0;
+    margin-left: 0rem;
+    padding: 1rem;
+ }
+ .Enquiry{
+    background: #F5F5F5;
+    padding: 1rem;
+}
+.Check_Text_Black{
+    display: none;
+}
+.Check_Text_Blue{
+    display: none;
+}
+.check_txt{
+    display: flex;
+}
+.Check_Text_Blue_Mbl{
+    font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+letter-spacing: 0.01em;
+
+color: #006FF7;
+}
+.Check_Text_Black_Mbl{
+    font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+letter-spacing: 0.01em;
+margin:0px 2px;
+color: #23282F;
+}
+.check_Text_Mbl{
+    display: block;
+}
+.Line1 , .Line2 {
+    display: flex;
+    flex-direction: column;
+}
+.Service_Carousel .carousel-button-group {
+    display: flex;
+    position: absolute;
+    right: 0;
+    left: 3rem;
+    margin-top: -3rem;
+    justify-content: space-between;
+    margin-right: 1rem;
+}
+.Q_Line h3{
+    font-size: 10px;
+  }
+
+}

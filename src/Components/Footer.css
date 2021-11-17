@@ -1,0 +1,193 @@
+
+.Footer_btn{
+    background: #ffffff;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    width: 13.12rem;
+    height: 3.12rem;
+    border-radius: 0px 20px 0px 0px;
+    
+font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 22px;
+letter-spacing: -0.427179px;
+opacity: 1 !important;
+padding-bottom: 7px;
+color: #23282F;
+margin: 1rem 0;
+}
+.Footer_Buttons_Mobile{
+    display: none;
+}
+
+.Footer{
+    background: #23282F;
+    padding: 6rem;
+}
+.Footer_Mobile{
+    display: none;
+}
+.Footer_Nav{
+    
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 21px;
+margin-top: 0.8rem;
+color: #FFFFFF;
+}
+.Nav_Footer_Lgo{
+  display: flex;
+  justify-content: space-between;  
+}
+.Footer_Buttons{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 40rem;
+}
+.Keeping_it{
+    
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 55px;
+    /* identical to box height */
+    
+    letter-spacing: -1.05538px;
+    
+    color: #FFFFFF;
+    }
+    .Estate{
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 42px;
+        line-height: 55px;
+        /* identical to box height */
+        
+        letter-spacing: -1.05538px;
+        
+        color: #006FF7; 
+    }
+    .Footer_Heading{
+        display: flex;
+        justify-content: space-between;
+    }
+    .Footer_hr{
+        
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+    margin: 2rem 0;
+    }
+    .Logo{
+       
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 39px;
+    /* identical to box height */
+    
+    letter-spacing: -0.376923px;
+    
+    color: #FFFFFF;
+    }
+    .Social_Media_Icons{
+        display: flex;
+        justify-content: space-between;
+        width: 9rem;
+        margin-top: 1rem;
+    }
+    
+@media screen and (max-width: 600px) {
+
+    .Footer {
+        background: #23282F;
+        padding: 2rem;
+    }
+    .Keeping_it {
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 31px;
+        letter-spacing: -1.05538px;
+        color: #FFFFFF;
+    }
+    .Estate {
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 31px;
+        letter-spacing: -1.05538px;
+        color: #006FF7;
+    }
+    .Footer_btn {
+        background: #ffffff;
+        color: inherit;
+        border: none;
+        padding: 0px;
+        font: inherit;
+        cursor: pointer;
+        outline: inherit;
+        width: 135px;
+        height: 46px;
+        border-radius: 0px 20px 0px 0px;
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 22px;
+        letter-spacing: -0.427179px;
+        opacity: 1 !important;
+        color: #23282F;
+        margin: 1rem 0;
+      
+    }
+    .Footer_Buttons {
+        display: none;
+    }
+    .Footer_Buttons_Mobile{
+  display: flex;
+    }
+    ul {
+        list-style-type: none;
+    }
+    .Footer_Nav_Right_Part{
+        margin: 0 1rem;
+    }
+    .Social_Media_Icons {
+        display: flex;
+        justify-content: space-between;
+        width: 5rem;
+        margin-top: 2rem;
+        margin-left: 8rem;
+    }
+    .Nav_Footer_Logo{
+        width: 6rem;
+    height: 2rem;
+    margin-top: 1rem;
+
+    }
+    .Footer_Mobile{
+        display: block;
+    }
+}
